@@ -45,6 +45,8 @@ compare_with expected
 ### Solution
 
 ```SQL
+select (3600*h + 60*m + s)*1000 as res
+from past;
 
 ```
 
