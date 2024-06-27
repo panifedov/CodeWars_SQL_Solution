@@ -54,4 +54,9 @@ FROM fakebin;
 
 ```
 
+```SQL
+SELECT x, TRANSLATE(x, '123456789', '000011111') AS res 
+FROM fakebin
+```
+
 [See on CodeWars.com](https://www.codewars.com/kata/57eae65a4321032ce000002d/train/sql)
